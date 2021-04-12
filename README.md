@@ -8,7 +8,7 @@ Project Slide: 15
 To efficiently distribute charges to a group of people for grocery shopping, trips, and many other scenarios, I will be using the dataset various sources online to achieve this. 
 
 **Research Questions**
-How to efficiently and accurately distribute charges amongst a group of people?
+How to distribute charges efficiently and accurately amongst a group of people? 
 How does different ways of splitting the receipts affect this?
 How does different currencies and types of receipts affect the application?
 
