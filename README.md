@@ -36,8 +36,8 @@ python interface.py
 * NGL algorithm Issues:
   *  Strings that are located below barcodes or at the bottom of receipt that contain date and time are unable to be retrieved
   *  Inability for algorithm to 
-    *  Determine street addresses
-    *  Whether there or not there is an additional part to the name of the market on the second line of the receipt
+     *  Determine street addresses
+     *  Whether there or not there is an additional part to the name of the market on the second line of the receipt
   *  Unable to distinguish between formats shown in Bfresh and Stop & Shop Receipts, where the actual price is listed as the "discount" or "price you pay"
 
  
