@@ -2,7 +2,7 @@ from extraction import Parser
 import csv
 import os
 
-SRC_DIR = "ENTER YOUR OWN SOURCE DESTINATION"
+SRC_DIR = "PATH"
 CSV_FILE = "receipt.csv"
 
 COLUMNS = ['Market', 'Date', 'Item', 'Price']
@@ -23,5 +23,6 @@ try:
         writer = csv.DictWriter(CSVFILE, fieldnames=COLUMNS)
         writer.writeheader()
         writer.writerows(record)
+    print("Done!")
 except IOError: 
     print("I/O Error when writing to CSV file.")
